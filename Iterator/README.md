@@ -23,6 +23,18 @@ Iterator 역할을 만들어내는 인터페이스(API)를 결정한다.
 Aggregate 역할이 결정한 인터페이스(API)를 실제로 구현하는 일을 한다.  
 Aggregate 역할을 하는 인스턴스를 만들어낸다. 예제의 BookShelf  클래스가 이 역할을 담당하며, Iterator 메소드를 구현한다. 
 
+### Iterator
+
+Aggregate에서 만든 Iterator 인터페이스.
+'내가 가지고 있는 요소를 순서대로 검색해주는 사람'의 역할을 한다.
+이를 위한 next(), hasNext() 인터페이스를 결정한다.
+
+### ConcreteIterator
+
+Iterator 인터페이스를 실제로 구현하는 일을 한다.
+실제 구체화된 Book을 검색하기 위한 next()와 hasNext()를 실제로 구현한다.
+BookShelfIterator 클래스가 이 역할을 담당한다.
+
 ## Hint
 
 ### 왜 For문을 사용하지 않고 Iterator 패턴을 사용할까?
