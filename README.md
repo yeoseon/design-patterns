@@ -7,7 +7,7 @@
 ## Aganda
 
 [Iterator](https://github.com/yeoseon/design-patterns/tree/master/Iterator)  
-[Adaptor](https://github.com/yeoseon/design-patterns/tree/master/Adaptor)
+[Adaptor](https://github.com/yeoseon/design-patterns/tree/master/Adaptor)  
 [Template](https://github.com/yeoseon/design-patterns/tree/master/Template)
 
 
