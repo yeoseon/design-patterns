@@ -16,9 +16,10 @@
 [Factory](https://github.com/yeoseon/design-patterns/tree/master/Factory)
 
 ## Source and License
-[Java언어로 배우는 디자인 패턴 입문](http://www.yes24.com/Product/goods/2918928)
+[Java언어로 배우는 디자인 패턴 입문](http://www.yes24.com/Product/goods/2918928)  
+
+https://github.com/iluwatar/java-design-patterns  
 
 [Design Patterns For Humans](https://github.com/kamranahmedse/design-patterns-for-humans#-simple-factory)
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
-
