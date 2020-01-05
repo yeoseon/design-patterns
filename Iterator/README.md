@@ -8,7 +8,6 @@ for문의 'i'의 기능을 추상화하여 일반화한 것
 
 **책장(BookShelf) 안에 책(Book)을 넣고, 그 책의 이름을 차례대로 표시하는 프로그램**
 
-
 ## 정리
 
 **Aggregate 인터페이스**와 **Iterator 인터페이스**(API)를 통해 각 Aggregate와 Interator의 구체적인 클래스인 **ConcreteAggregate**와 **ContreteIterator**를 구현하여 사용한다.
