@@ -13,7 +13,8 @@
 [Iterator](https://github.com/yeoseon/design-patterns/tree/master/Iterator)  
 [Adaptor](https://github.com/yeoseon/design-patterns/tree/master/Adaptor)  
 [Template](https://github.com/yeoseon/design-patterns/tree/master/Template)  
-[Factory](https://github.com/yeoseon/design-patterns/tree/master/Factory)
+[Factory](https://github.com/yeoseon/design-patterns/tree/master/Factory)  
+[Singleton](https://github.com/yeoseon/design-patterns/tree/master/Singleton)
 
 ## Source and License
 [Java언어로 배우는 디자인 패턴 입문](http://www.yes24.com/Product/goods/2918928)  
