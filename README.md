@@ -12,7 +12,7 @@
 
 [Iterator](https://github.com/yeoseon/design-patterns/tree/master/Iterator)  
 [Adaptor](https://github.com/yeoseon/design-patterns/tree/master/Adaptor)  
-[Template](https://github.com/yeoseon/design-patterns/tree/master/Template)
+[Template](https://github.com/yeoseon/design-patterns/tree/master/Template)  
 [Factory](https://github.com/yeoseon/design-patterns/tree/master/Factory)
 
 ## Source and License
