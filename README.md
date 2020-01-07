@@ -14,13 +14,12 @@
 [Adaptor](https://github.com/yeoseon/design-patterns/tree/master/Adaptor)  
 [Template](https://github.com/yeoseon/design-patterns/tree/master/Template)  
 [Factory](https://github.com/yeoseon/design-patterns/tree/master/Factory)  
-[Singleton](https://github.com/yeoseon/design-patterns/tree/master/Singleton)
+[Singleton](https://github.com/yeoseon/design-patterns/tree/master/Singleton)  
+[Prototype](https://github.com/yeoseon/design-patterns/tree/master/Prototype)  
 
-## Source and License
+## Sources
 [Java언어로 배우는 디자인 패턴 입문](http://www.yes24.com/Product/goods/2918928)  
 
-https://github.com/iluwatar/java-design-patterns  
+[[Github] Design patterns implemented in Java](https://github.com/iluwatar/java-design-patterns)  
 
-[Design Patterns For Humans](https://github.com/kamranahmedse/design-patterns-for-humans#-simple-factory)
-
-[![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by/4.0/)
+[[Github] Design Patterns For Humans](https://github.com/kamranahmedse/design-patterns-for-humans#-simple-factory)
