@@ -74,19 +74,25 @@ Abstract Factory 패턴의 구체적인 공장이 Singleton 패턴으로 되는 
 ### 보강 : 인스턴스를 만드는 다양한 방법
 
 1. new 를 이용한다.
+
 ```
 Something obj = new Something();
 ```
-이 경우 클래스 이름을 기술할 필요가 있다.
 
-2. clone
+이 경우 클래스 이름을 기술할 필요가 있다.  
+
+2. clone  
+
 Prototype 패턴에 등장했던 clone 메소드를 사용하면, 기존에 존재하는 인스턴스를 복제하는 방법으로 인스턴스를 생성할 수 있다. 이 때는 클래스 이름이 없어도 된다.
+
 ```
 obj = (Something)clone();
 ```
 
-3. newInstance
+3. newInstance  
+
 java.lang.Class 클래스의 newInstance 메소드를 사용하면, Class의 인스턴스를 기초로 그 Class가 표시하고 있는 클래스의 인스턴스를 만들 수 있다.
+
 ```
 someobj.getClass().newInstance();
 ```
