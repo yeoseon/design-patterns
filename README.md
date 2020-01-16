@@ -21,7 +21,8 @@
 [Bridge](/Bridge)  
 (다시보기) [Strategy](/Strategy)  
 [Composite](/Composite)  
-[Decorator](/Decorator)
+[Decorator](/Decorator)  
+(다시보기) [Visitor](/Visitor)  
 
 ## Sources
 [Java언어로 배우는 디자인 패턴 입문](http://www.yes24.com/Product/goods/2918928)  
