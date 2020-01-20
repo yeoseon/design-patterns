@@ -24,6 +24,7 @@
 [Decorator](/Decorator)  
 (다시보기) [Visitor](/Visitor)  
 [Chain of Responsibility](/Chain%20of%20Responsibility)  
+[Facade](/Facade)  
 
 ## Sources
 [Java언어로 배우는 디자인 패턴 입문](http://www.yes24.com/Product/goods/2918928)  
