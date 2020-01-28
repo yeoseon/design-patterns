@@ -27,6 +27,7 @@
 [Facade](/Facade)  
 [Mediator](/Mediator)  
 [Observer](/Observer)  
+[Memento](/Memento)  
 
 
 ## Sources
