@@ -28,6 +28,7 @@
 [Mediator](/Mediator)  
 [Observer](/Observer)  
 [Memento](/Memento)  
+[State](/State)  
 
 
 ## Sources
