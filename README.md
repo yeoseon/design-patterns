@@ -30,6 +30,9 @@
 [Memento](/Memento)  
 [State](/State)  
 [Flyweight](/Flyweight)  
+[Proxy](/Proxy)  
+[Command](/Command)  
+[Interpreter](/Interpreter)  
 
 ## Sources
 [Java언어로 배우는 디자인 패턴 입문](http://www.yes24.com/Product/goods/2918928)  
