@@ -8,6 +8,85 @@ for문의 'i'의 기능을 추상화하여 일반화한 것
 
 **책장(BookShelf) 안에 책(Book)을 넣고, 그 책의 이름을 차례대로 표시하는 프로그램**
 
+
+## 예제 2
+
+https://github.com/next-step/java-racingcar/pull/611 참고  
+
+Car 객체를 List로 갖는 Cars 객체의 순차 검색을 위한 Iterator 패턴의 사용  
+
+### Car객체를 여러개 갖는 Cars 객체  
+```
+public class Cars {
+
+    private List<Car> cars;
+
+    public Cars(String[] carNames) {
+        List<Car> cars = new ArrayList<Car>();
+
+        for(int i = 0; i < carNames.length; i++) {
+            cars.add(createCar(carNames[i]));
+        }
+        this.cars = cars;
+    }
+
+    private Car createCar(String carName) {
+        Car car = new Car(carName);
+        return car;
+    }
+
+    public void clear() {
+        this.cars.clear();
+    }
+
+    public int getCarsLength() {
+        return cars.size();
+    }
+
+    public Car getCar(int index) {
+        return cars.get(index);
+    }
+
+}
+```
+
+### CarsIterator 객체  
+
+```
+public class CarsIterator implements Iterator {
+
+    private Cars cars;
+    private int index;
+
+    public CarsIterator(Cars cars) {
+        this.cars = cars;
+        this.index = 0;
+    }
+
+    public boolean hasNext() {
+        if(index < cars.getCarsLength()) {
+            return true;
+        }
+        return false;
+    }
+
+    public Car next() {
+        Car car = cars.getCar(index);
+        index++;
+        return car;
+    }
+
+}
+```
+
+### Client
+
+```  
+        CarsIterator carsIterator = new CarsIterator(this.cars);
+        while(carsIterator.hasNext()) {
+            ...
+        }
+```
 ## 정리
 
 **Aggregate 인터페이스**와 **Iterator 인터페이스**(API)를 통해 각 Aggregate와 Interator의 구체적인 클래스인 **ConcreteAggregate**와 **ContreteIterator**를 구현하여 사용한다.
