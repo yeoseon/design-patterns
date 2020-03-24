@@ -70,7 +70,54 @@ public class GameRule {
 
 ### GameRule 클래스 Refactoring 후  
 
-(추가 예정)
+MoveRule이라는 추상 인터페이스용을 하나 만들어, canMove() 인터페이스를 선언헀다.  
+이를 구현한 RandomMoveRule이라는 구현체를 하나 만들어 이 안에서 구현했다. 
+Main 에서는 RacingGame의 규칙을 set 해주는 메소드를 만들어 set해주었다. 
+
+#### MoveRule  
+```
+public interface MoveRule {
+
+    boolean canMove();
+}
+```
+
+#### RandomMoveRule  
+```
+public class RandomMoveRule implements MoveRule {
+
+    public static final int NUMBER_CAN_MOVE = 4;
+
+    public boolean canMove() {
+        return isNumberCanMove(RandomNumberGenerator.generateRandomValue());
+    }
+
+    public static boolean isNumberCanMove(int randomValue) {
+        return randomValue >= NUMBER_CAN_MOVE;
+    }
+}
+
+```
+
+#### RacingGame  
+```
+public class RacingGame {
+    private MoveRule moveRule;
+    ...
+    
+    public void setMoveRule(MoveRule moveRule) {
+        this.moveRule = moveRule;
+    }
+}
+```
+
+#### Main   
+```
+        RacingGame racingGame = new RacingGame(roundTime, carNameList);
+        racingGame.setMoveRule(new RandomMoveRule());
+        racingGame.start();
+
+```
 
 ## 예제 3  
 
