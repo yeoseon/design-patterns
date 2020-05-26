@@ -40,3 +40,5 @@
 [[Github] Design patterns implemented in Java](https://github.com/iluwatar/java-design-patterns)  
 
 [[Github] Design Patterns For Humans](https://github.com/kamranahmedse/design-patterns-for-humans#-simple-factory)
+
+[리팩토링 구루](https://refactoring.guru/design-patterns/catalog)  
