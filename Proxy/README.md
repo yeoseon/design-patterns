@@ -41,6 +41,10 @@ PrinterProxy 인스턴스를 자신이 가능한 일까지는 수행하다가, �
 * 처음에 PrinterProxy를 생성하고, Printer의 클래스는 생성하지 않는다.  
 * ```print``` 메소드를 수행할 때 비로소 내부에서 Printer 인스턴스가 생성되는 것이다.  
 
+## 예제 2   
+
+[Spring에서 AOP를 지원하기 위해 사용하는 패턴](https://github.com/yeoseon/spring-study#%EB%8B%A4%EC%96%91%ED%95%9C-aop-%EA%B5%AC%ED%98%84-%EB%B0%A9%EB%B2%95)  
+
 
 ## 정리
 
